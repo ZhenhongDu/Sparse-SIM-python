@@ -1,3 +1,4 @@
+import cupy as cp
 import numpy as np
 
 def forward_diff(data, step, dim):

@@ -13,7 +13,7 @@ from sparse_deconv import sparse_hessian_denoise
 from tifffile import imread
 
 img = imread('raw.tif')
-g = sparse_hessian_denoise(img,fidelity=100,sparsity=30,iteration_num=70,contiz=0.8)
+g = sparse_hessian_denoise(img,mu=100,sparsity=5,iters=70,sigma=0.8)
 ```
 ## RL deconvolution can be done by gputools.deconv
 ## Requirements

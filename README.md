@@ -1,7 +1,7 @@
 # Sparse-SIM-python
 I modified the SIM project from @Tlambert03 to get a simple Python version of sparse hessian denoise
 
-Sparse-SIM has two steps, the first is Sparse denoising and the second is RL deconvolution
+Sparse-SIM has two steps, the first is sparse denoising and the second is RL deconvolution
 ## Tlambert03's SIM project
 https://github.com/tlambert03/pycudasirecon
 ## Sparse-SIM official project address:

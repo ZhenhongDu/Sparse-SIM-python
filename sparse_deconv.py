@@ -8,6 +8,8 @@ except ImportError:
 
 xp = np if cupy is None else cupy
 
+## adapted from https://github.com/tlambert03/pycudasirecon/blob/master/pycudasirecon/_hessian.py
+
 def sparse_hessian_denoise(initial: np.ndarray, iters=50, mu=100, sigma: float = 1, lamda=1,sparsity=5):
     """
     sparse hessian deconv

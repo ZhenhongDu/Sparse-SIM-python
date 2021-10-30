@@ -24,5 +24,5 @@ tifffile
 
 matplotlib
 
-##Tips
+## Tips
 The code under 'Matlab style implementation' folder is my own implementation according to the Sparse-SIM author's Matlab version
